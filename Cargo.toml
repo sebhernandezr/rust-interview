@@ -1,0 +1,10 @@
+[package]
+name = "rust-interview"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = { version = "0.8.9" , features = ["macros"] }
+serde = { version = "1.0.229", features = ["derive"] }
+tokio = {  version = "1.54.1", features = ["rt-multi-thread"] }
+bcrypt = "0.19.3"
